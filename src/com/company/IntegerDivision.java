@@ -10,6 +10,10 @@ public class IntegerDivision {
         int dividedBy;
         Scanner in;
 
+        System.out.println("*********************************");
+        System.out.println("*  INTEGER DIVISION ROUNDED UP  *");
+        System.out.println("*********************************");
+
         in = new Scanner(System.in);
         System.out.println("What number are you dividing? (Must be a whole number)");
         firstNumber = in.nextInt();
